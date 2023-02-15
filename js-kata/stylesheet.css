@@ -1,0 +1,56 @@
+body {
+   display: flex;
+   font-family:Arial, Helvetica, sans-serif;
+   flex-direction: column;
+   margin: 2rem;
+}
+.kata-2 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.kata-2-input-container{
+   display: flex;
+   flex-direction: column;
+}
+
+input[type=text]{
+   width: 10rem;
+   margin: 1rem 0;
+}
+
+.button{
+   width: 5rem;
+   height: 2rem;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+#kata-2-test-container{
+   width: 40rem;
+   height: 20rem;
+   border: 2px solid lightgrey;
+   background-color: rgb(245, 245, 245);
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   overflow: scroll;
+   align-items: end;
+   padding: 1rem;
+}
+
+#kata-2-test-container *{
+   overflow-anchor: none;
+}
+#anchor{
+   overflow-anchor: auto;
+   height: 1px;
+}
+
+.console-output{
+   padding: 0;
+   margin: 0;
+   width: 100%;
+}
